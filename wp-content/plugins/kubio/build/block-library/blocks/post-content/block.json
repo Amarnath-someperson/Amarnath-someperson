@@ -1,0 +1,9 @@
+{
+	"name": "core/post-content",
+	"category": "kubio-template-parts",
+	"usesContext": ["postId", "postType"],
+	"supports": {
+		"align": false,
+		"html": false
+	}
+}

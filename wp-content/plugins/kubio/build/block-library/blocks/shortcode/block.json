@@ -1,0 +1,36 @@
+{
+	"name": "kubio/shortcode",
+	"category": "kubio-components",
+	"attributes": {
+		"kubio": {
+			"type": "object"
+		},
+		"shortcode": {
+			"type": "string",
+			"default": ""
+		},
+		"inEditor": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"kubio": {
+			"elementsEnum": {
+				"OUTER": "outer"
+			},
+			"elementsByName": {
+				"outer": {
+					"wrapper": true,
+					"default": true
+				}
+			},
+			"template": {
+				"type": "element",
+				"props": {
+					"name": "outer"
+				}
+			}
+		}
+	}
+}
